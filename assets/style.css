@@ -30,8 +30,7 @@ body{
 
 /*Header Section */
 
-header{
-    /* background-color: var(--tertiary-color); */
+header {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -54,6 +53,7 @@ header h1 {
     text-align: center;
      
 }
+
 
 header a {
     text-decoration: none;
@@ -211,15 +211,44 @@ footer ul li a {
 /* Media for Computer Monitor */
 
 @media screen and (min-width: 1200px) {
-    * {
-        box-sizing: border-box; 
+
+    /* Header */
+
+    header {
+        padding: 20px 35px;
     }
-    /* header */
     header h1 {
-        background: var(--primary-color);
-        width: ;
+         display: flex; 
+         justify-content: space-between; 
+         margin: 0;
+
     }
-    /* run buddy overlay */
+
+    header nav ul li a {
+        padding: 10px 15px;
+        font-weight: lighter;
+        font-size: 1.55vw;
+        text-shadow: 0 0 10px rgba(0,0,0,0.5);
+    }
+
+    header nav ul li a:hover {
+        background: var(--primary-color);
+        color: var(--tertiary-color);
+        border-radius: 15px;
+        text-shadow: none;
+    }
+    /* Header end */
+
+    /* About me start */
+    #about-me img {
+        display: flex;
+        width: 25%;    
+        margin-bottom: 20px;
+    }
+
+    /* About me end */
+
+    /* Run buddy overlay */
     .run-buddy-container {
      position: relative;
         width: 100%;
@@ -252,7 +281,7 @@ footer ul li a {
     .run-buddy-container:hover .run-buddy-overlay {
         opacity: 0;
     }
-    /*horiseon overlay  */
+    /*Horiseon overlay  */
     .horiseon-container {
         position: relative;
            width: 90%;
@@ -286,7 +315,7 @@ footer ul li a {
        .horiseon-container:hover .horiseon-overlay {
            opacity: 0;
        }
-       /* coming soon overlay */
+       /* Coming soon overlay */
        .coming-soon-container {
         position: relative;
            width: 90%;
@@ -319,5 +348,16 @@ footer ul li a {
    
        .coming-soon-container:hover .coming-soon-overlay {
            opacity: 0;
+       }
+
+       /* Footer start */
+
+       #contact-me {
+           margin-top: 5px;
+       }
+
+       footer ul li{
+           justify-content: space-between;
+           margin: 0px 5px;
        }
 }
