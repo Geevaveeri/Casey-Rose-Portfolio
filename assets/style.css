@@ -168,17 +168,18 @@ header nav ul li a {
     color: var(--tertiary-color);
 } 
 
-.coming-soon-image {
+.bestsellers-image {
     display: flex;
-    width: 50%;    
-    margin: 20px auto;
-    border: 5px solid var(--primary-color);
+    width: 90%;
+    margin: auto;
+    border: 2 solid var(--primary-color);
 
 }
 
-.coming-soon-overlay {
+.bestsellers-overlay {
     text-align: center;
     color: var(--tertiary-color);
+    margin-bottom: 20px;
 } 
 /* Work End */
 
@@ -284,13 +285,14 @@ footer ul li a {
     /*Horiseon overlay  */
     .horiseon-container {
         position: relative;
-           width: 90%;
+           width: 100%;
            max-width: 700px;
+           padding-left: 5px;
        }
    
        .horiseon-image {
         display: block;
-        width: 90%;
+        width: 100%;
         height: auto;
         border: 5px solid var(--primary-color);
        }
@@ -301,7 +303,7 @@ footer ul li a {
            background: rgb(136,189,188);
            background: rgba(136, 189, 188, 0.9);
            color: var(--tertiary-color);
-           width: 90%;
+           width: 100%;
            transition: .5s ease;
            opacity: 1; 
            color: var(--tertiary-color);
@@ -309,33 +311,34 @@ footer ul li a {
            padding: 20px; 
            text-align: center;
            margin-bottom: 0;
-           left: 35px;
+          
        }
    
        .horiseon-container:hover .horiseon-overlay {
            opacity: 0;
        }
        /* Coming soon overlay */
-       .coming-soon-container {
+       .bestsellers-container {
         position: relative;
            width: 90%;
            max-width: 700px;
+           padding-left: 5px;
        }
    
-       .coming-soon-image {
+       .bestsellers-image {
         display: block;
-        width: 90%;
+        width: 100%;
         height: auto;
         border: 5px solid var(--primary-color);
        }
    
-       .coming-soon-overlay {
+       .bestsellers-overlay {
            position: absolute;
            bottom: 0;
            background: rgb(136,189,188);
            background: rgba(136, 189, 188, 0.9);
            color: var(--tertiary-color);
-           width: 90%;
+           width: 100%;
            transition: .5s ease;
            opacity: 1; 
            color: var(--tertiary-color);
@@ -343,10 +346,10 @@ footer ul li a {
            padding: 20px; 
            text-align: center;
            margin: auto;
-           left: 35px;
+           
        }
    
-       .coming-soon-container:hover .coming-soon-overlay {
+       .bestsellers-container:hover .bestsellers-overlay {
            opacity: 0;
        }
 
@@ -387,5 +390,6 @@ footer ul li a {
     #contact-me ul li {
         justify-content: space-between;
         margin: 0px 5px  ;
+
     }
 }
