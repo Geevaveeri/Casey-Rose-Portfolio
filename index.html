@@ -2,97 +2,169 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Casey Rose Portfolio</title>
-    <link rel="stylesheet" href="./assets/style.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Parallax Template - Materialize</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
 
 <body>
-    <!-- Header Start -->
-    <header>
-        <h1>Casey Rose</h1>
-        <!-- Navidation Bar -->
-        <nav>
-            <ul>
-                <li> <a href="#about-me">About Me</a> </li>
-                <li> <a href="#work">Work</a> </li>
-                <li> <a href="#contact-me">Contact Me</a></li>
-                <li> <a href="#resume">Resume</a> </li>
-            </ul>
-        </nav>
-        <!-- Navigation Bar End -->
-    </header>
-    <!-- Header End -->
+  <nav class="deep-purple lighten-5" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#" class="brand-logo">Casey Rose</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact-me">Contact Me</a></li>
+        <li><a href="https://drive.google.com/file/d/197Vu9wnj6_LOIiYZEeOwShJ_WeQ4rTHL/view?usp=sharing">Resume</a></li>
+      </ul>
 
-    <!-- Hero/Jumbotron -->
-    <section class="hero">
-        <h2 class="hero-subtitle">Cool Subtitle Here!</h2>
-    </section>
-    <!-- Hero/Jumbotron End -->
+      <ul id="nav-mobile" class="sidenav">
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#work">Work</a></li>
+        <li><a href="#contact-me">Contact Me</a></li>
+        <li><a href="#resume">Resume</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
 
-    <!-- About Me Section -->
-    <section id="about-me">
-        <h2 class="section-title">About Me</h2>
+  <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center black-text">Portfolio Projects</h1>
+        <div class="row center">
+          <h5 class="header col s12 black-text">Full-Stack web developer looking to broaden his horizons</h5>
+        </div>
+        <br><br>
 
-        <img src="./assets/images/Selfie.jpg" alt="Selfie of Casey Rose" class="selfie">
+      </div>
+    </div>
+    <div class="parallax"><img src="/images/Teal Background.png" alt="Unsplashed background img 1"></div>
+  </div>
 
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia, dolor? Sequi ut asperiores nisi provident
-            neque eos tempore libero eligendi assumenda quasi eius rem doloribus aliquam ex quidem, consectetur id?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus itaque ipsam soluta eum, maiores,
-            molestiae corporis at in laudantium neque quisquam id perspiciatis totam tempore ipsa quod sint optio sit.
-        </p>
-        <br />
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi quam esse quaerat amet recusandae laboriosam?
-            Sapiente consectetur at harum neque quia dolores facilis quod labore culpa expedita, fugit esse. Lorem ipsum
-            dolor sit amet consectetur adipisicing elit. Eum a corporis reprehenderit veritatis nostrum id modi,
-            molestiae ipsam hic obcaecati vel. Modi libero ad odio fugit deserunt delectus animi perspiciatis?
 
-    </section>
-    <!-- About Me Section End -->
+  <div class="container ">
+    <div class="section " id="about-me">
+      <!--   about me section  -->
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center brown-text"> <img src="/images/Selfie.jpg" alt="Photo of Casey Rose" class="responsive-img"
+              width="400" height="500"></h2>
+          <h5 class="center">About Me</h5>
 
-    <!-- Work Section Start -->
-    <section id="work">
-        <h2 class="section-title">Work</h2>
-        <div class="run-buddy-container">
-            <a href="https://geevaveeri.github.io/run-buddy/"><img src="./assets/images/Run Buddy Image.PNG"
-                    alt="Picture of the Run Buddy website." class="run-buddy-image"></a>
-            <div class="run-buddy-overlay">
-                Run Buddy
-            </div>
+          <p class="light">Dedicated and motivated Full-Stack Web Developer, offering a strong educational foundation in front end and back end
+          production environments, with a background in group based coding environments. I am willing to work hard to further my
+          production knowledge.. I believe these attributes would be a great addition to your team and an overall asset to your
+          organization. I look forward to the opportunity of using my skills and strengths to work with you.</p>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  </div>
+
+
+<!-- work section -->
+  <div class="slider">
+    <ul class="slides">
+      <li class="blog-img" id="work">
+        <img src="/images/Blog.PNG" class="responsive-img" style="background-position: top;">
+        <div class="caption center-align">
+          <h3 class="black-text"> <a href="https://mvc-challenge.herokuapp.com/" >MVC Blog</a></h3>
+          <h5 class=" black-text ">A blog I made using the Model, View, Controller method.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="/images/Employee tracker.PNG" class="responsive-img" style="background-position: top;">
+        <div class="caption right-align">
+          <h3> <a href="https://github.com/Geevaveeri/Employee-Tracker">Employee Tracker</a></h3>
+          <h5 class="light grey-text text-lighten-3 ">A command line application to manage a company's <br> employee database, using Node.js, Inquirer, and MySQL.</h5>
+        </div>
+      </li>
+      <li>
+        <img src="/images/The Best Sellers.jpg" class="responsive-img" style="background-position: top;">
+        <div class="caption left-align">
+          <h3 class="black-text"> <a href="https://geevaveeri.github.io/the-best-sellers/">The Best Sellers</a></h3>
+          <h5 class="black-text">The user select one of several current bestsellers lists from the New York Times bestsellers lists and displays the top
+          6 books in those catagories</h5>
+        </div>
+      </li>
+      <li>
+        <img src="/images/coming-soon-store-placeholder-image.png">
+        <div class="caption center-align">
+          <h3></h3>
+          <h5 class="light grey-text text-lighten-3"></h5>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <!-- Contact me  -->
+  <div class="container">
+    <div class="section">
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4></h4>
+          <p class="left-align light"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="parallax"><img src="background3.jpg" alt="Unsplashed background img 3"></div>
+  </div>
+
+  <footer class="page-footer deep-purple lighten-2" id="contact-me">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Contact me</h5>
+          <p class="grey-text text-lighten-4">Feel free to contact me at the following links if you have any questions.</p>
+
 
         </div>
-        <div class="bestsellers-container">
-            <a href="https://geevaveeri.github.io/the-best-sellers/"> <img src="./assets/images/The Best Sellers.jpg"
-                    alt="image of the best sellers website" class="bestsellers-image"></a>
-            <div class="bestsellers-overlay">
-                TheBestSellers
-            </div>
+        <div class="col l3 s12">
+          <h5 class="white-text"></h5>
+          <ul>
+            <li><a class="white-text" href="#!"></a></li>
+            <li><a class="white-text" href="#!"></a></li>
+            <li><a class="white-text" href="#!"></a></li>
+            <li><a class="white-text" href="#!"></a></li>
+          </ul>
         </div>
-        <div class="horiseon-container">
-            <img src="./assets/images/Horiseon screenshot.PNG" alt="Picture of the Horiseon website"
-                class="horiseon-image">
-            <div class="horiseon-overlay">
-                Horiseon Code Refactor
-            </div>
+        <div class="col l3 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="mailto: cbr_me@yahoo.com">Email</a></li>
+            <li><a class="white-text" href="github.com/Geevaveeri">Github</a></li>
+            <li><a class="white-text" href="www.linkedin.com/in/rosecasey	">Linkedin</a></li>
+            <li><a class="white-text" href="https://twitter.com/geevaveeri">Twitter</a></li>
+          </ul>
         </div>
-    </section>
-    <!-- Work Section End -->
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a>
+      </div>
+    </div>
+  </footer>
 
-    <!-- Contact Me Section -->
-    <footer id="contact-me">
-        <h2 class="section-title">Contact Me</h2>
 
-        <ul>
-            <li>555.555.5555</li>
-            <li>email@email.com</li>
-            <li> <a href="https://github.com/Geevaveeri">GitHub</a> </li>
-            <li> <a href="">Linkdin</a> </li>
-            <li> <a href="https://twitter.com/geevaveeri">Twitter</a> </li>
-        </ul>
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
 
-    </footer>
 </body>
 
 </html>
