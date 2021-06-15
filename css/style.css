@@ -15,6 +15,7 @@ nav .brand-logo {
 
 p {
   line-height: 2rem;
+  font-size: large;
 }
 
 .sidenav-trigger {
@@ -58,12 +59,20 @@ footer.page-footer {
   margin: 0;
 }
 
+.overlay {
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  opacity:1;
+  color: white;
+}
+
 .noSelect {
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    color: black;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: black;
 }
