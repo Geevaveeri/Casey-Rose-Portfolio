@@ -60,7 +60,7 @@ footer.page-footer {
 }
 
 .overlay {
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  background: rgba(0, 0, 0, 0.5); 
   opacity:1;
 }
 
